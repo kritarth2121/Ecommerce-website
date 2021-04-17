@@ -4,9 +4,16 @@ import Home from "./pages/Home";
 import Login from "./pages/auth/Login";
 import Register from "./pages/auth/Register";
 import {Switch,Route} from "react-router-dom";
+import Header from "./components/nav/Header";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 function App() {
   return (
-    <div className="App">
+    <>
+
+      <Header/>
+      <ToastContainer/>
       <Switch>
         <Route exact path="/" component={Home}></Route>
         <Route exact path="/login" component={Login}></Route>
@@ -14,7 +21,7 @@ function App() {
         <Route exact path="/register" component={Register}></Route>
 
       </Switch>
-    </div>
+    </>
   );
 }
 
