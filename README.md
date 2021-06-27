@@ -4,7 +4,7 @@ NOTE: This is made only for educational purposes, and is in no way associated wi
 
 ## Live app
 
-<a href="https://clone-216bc.web.app/" target="_blank">https://clone-216bc.web.app/</a>
+<a href="https://clone-216bc.web.app/" target="_blank">https://ecommerce-website-eight.vercel.app/</a>
 
 ## Usage
 
